@@ -1,4 +1,4 @@
-# pedagogy-framework-extractor
+# Padegogy Framework Extractor
 
 A retrieval-augmented pipeline that extracts a teacher's *reasoning frameworks* from
 video transcripts and applies them to new problems the source content never
