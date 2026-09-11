@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 from youtube_transcript_api import YouTubeTranscriptApi
 
-from extract_video_ids import extract_video_ids
+from .extract_video_ids import extract_video_ids
 
 # ==================================================
 # CONFIG
