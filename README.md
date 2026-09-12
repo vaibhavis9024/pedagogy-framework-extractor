@@ -1,4 +1,4 @@
-# Padegogy Framework Extractor
+# Pedagogy Framework Extractor
 
 A retrieval-augmented pipeline that extracts a teacher's *reasoning frameworks* from
 video transcripts and applies them to new problems the source content never
@@ -70,3 +70,16 @@ expanding topic or source coverage.
 - Transcript retrieval: `youtube-transcript-api`
 - Extraction / generation: LLM API (structured JSON output)
 - Similarity / coverage check: sentence embeddings
+
+## Usage
+
+Extract playlist video IDs:
+```bash
+python -m ingestion.extract_video_ids
+```
+
+Download video transcripts:
+```bash
+python -m ingestion.get_transcript
+```
+
